@@ -15,8 +15,8 @@ public class Z1797 {
 		
 		while ( (a % b) != 0 ) {
 			long c = a % b;
-			b = c;
 			a = b;
+			b = c;
 		}
 		return b;
 	}
